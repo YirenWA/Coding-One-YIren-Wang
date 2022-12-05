@@ -1,6 +1,7 @@
 # Coding-One-YIren-Wang
 
-<The Place Where We Live>
+*The Place Where We Live*
+
  I built a mini natural world in Three.js, a creative work about the natural environmental issues that humans live in. It is presented through artistic visual animation on the web side to make the work more expressive and immersive for the viewer.  
   
   ![1](https://user-images.githubusercontent.com/119879041/205743849-24a4b747-4f8a-4c7e-9797-cff83c516c02.png)

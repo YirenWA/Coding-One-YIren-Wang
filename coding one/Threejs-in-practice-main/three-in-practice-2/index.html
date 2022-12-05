@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0; 
+      background: rgb(0, 0, 0)
+    }
+  </style>
+
+  <script type="module" src="src/index.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <h1>The Place Where We Live... </h1>     
+    </div>
+    <style>
+           .container{
+            position:absolute;
+            color:rgba(172, 54, 54, 1);
+            margin-top: 4.2em;
+            margin-left: 7em;
+            text-transform: unset;
+            font-family: monospace;
+            font-size: 19px;
+            }
+          </style>
+
+          <div class="container1">   
+            <h2>Click and Scale to see it. </h2>    
+        </div>
+        <style>
+               .container1{
+                position:absolute;
+                color:rgba(172, 54, 54, 0.7);
+                margin-top: 10.8em;
+                margin-left: 10.3em;
+                text-transform: unset;
+                font-family: monospace;
+                font-size: 13px;
+                }
+              </style>
+
+            <div class="container2">   
+             <h3> Explore </h3>    
+        </div>
+        <style>
+              .container2{
+               position:absolute;
+               padding: 0.01em 0.6em 0em 0.01em;/* 上边 | 右边 | 下边 | 左边 */
+               background-color: rgba(172, 54, 54, 0.8);
+               color:rgba(255, 255, 255, 0.8);
+               margin-top: 11em;
+               margin-left: 7.4em;
+               text-transform: uppercase;
+               font-family: monospace;
+               font-size: 18px;
+               border: none;
+               height: 5.7%;
+               width: 2%;
+               }
+              </style>
+     
+    <audio id="SONG">
+      <source src="audio/galaxy1.0.mp3" type="audio/mp3" controls="controls" autoplay loop="ture" hidden="ture">
+    </audio>
+
+    <script >
+      document.getElementById("SONG").play();
+    </script>
+
+
+</body>
+</html>
